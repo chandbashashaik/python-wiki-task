@@ -76,7 +76,6 @@ def execute():
 
 # executing main_function for 10 minutes
 while True:
-    global c
     print('#######################################################################################',c)
     execute()
     if c==10:
