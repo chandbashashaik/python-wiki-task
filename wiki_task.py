@@ -3,7 +3,7 @@ from pywikibot.comms.eventstreams import EventStreams
 import datetime
 
 def main_function():
-    query_timestamp = query_timestamp = (datetime.datetime.utcnow() - datetime.timedelta(minutes=1)).strftime('%Y%m%d%H%M%S')
+    query_timestamp = query_timestamp = (datetime.datetime.utcnow() - datetime.timedelta(minutes=1)).strftime('%Y%m%d%H%M%S') #change mintnues=1 to 5 for last 5 min wiki-changes
     now = int(datetime.datetime.utcnow().strftime('%Y%m%d%H%M%S'))
     wiki_data = []
     domain_to_data={}
